@@ -3,10 +3,10 @@ import { Header } from "../components/header";
 
 export default function Contact() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
+      <main className="flex-1 px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
         <div className="max-w-2xl">
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Contact
@@ -37,6 +37,6 @@ export default function Contact() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

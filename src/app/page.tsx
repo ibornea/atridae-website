@@ -3,7 +3,7 @@ import { Header } from "./components/header";
 
 export default function Home() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Header />
 
       <main className="flex flex-1 px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
@@ -18,6 +18,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
