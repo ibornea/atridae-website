@@ -6,17 +6,17 @@ export default function Home() {
         <nav aria-label="Primary navigation" className="overflow-x-auto">
           <ul className="flex w-max items-center gap-6 whitespace-nowrap text-sm font-semibold text-zinc-600 dark:text-zinc-400">
             <li>
-              <a className="hover:text-foreground" href="#what-we-do">
-                What we do
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-foreground" href="#how-we-think">
+              <a className="hover:text-foreground" href="/how-we-think">
                 How we think
               </a>
             </li>
             <li>
-              <a className="hover:text-foreground" href="#contact">
+              <a className="hover:text-foreground" href="/what-we-do">
+                What we do
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-foreground" href="/contact">
                 Contact
               </a>
             </li>
