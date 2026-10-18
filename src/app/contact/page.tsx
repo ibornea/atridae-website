@@ -6,33 +6,27 @@ export default function Contact() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
-        <div className="max-w-2xl">
-          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Contact
-          </h1>
-
-          <section className="mt-16">
-            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-              Let&apos;s talk.
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <main className="secondary flex-1">
+        <div className="secondary-intro"><div className="secondary-container">
+          <p className="secondary-kicker">03 / Get in touch</p>
+          <h1>Let&apos;s talk<span className="secondary-period">.</span></h1>
+          <p className="secondary-lead">
               Whether you have a software idea, need help with an existing product, or
               simply want to explore what might be possible, we&apos;d be happy to hear
               from you.
-            </p>
-          </section>
-
-          <section className="mt-16">
-            <h2 className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">
-              Email
-            </h2>
-            <a
-              className="mt-3 inline-block text-lg font-semibold hover:text-zinc-600 dark:hover:text-zinc-400"
-              href="mailto:contact@atridae.co.uk"
-            >
-              contact@atridae.co.uk
-            </a>
+          </p>
+        </div></div>
+        <div className="secondary-container secondary-content">
+          <section className="contact-detail" aria-labelledby="contact-email-title">
+            <div>
+              <p className="secondary-kicker">Start a conversation</p>
+              <h2 id="contact-email-title">Get in touch by email.</h2>
+              <p>We welcome conversations about digital products, software development and practical solutions.</p>
+            </div>
+            <div className="contact-email">
+              <span>Email</span>
+              <a href="mailto:contact@atridae.co.uk">contact@atridae.co.uk <span aria-hidden="true">↗</span></a>
+            </div>
           </section>
         </div>
       </main>

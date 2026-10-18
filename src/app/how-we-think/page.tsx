@@ -6,28 +6,25 @@ export default function HowWeThink() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
-        <div className="max-w-2xl">
-          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            How we think
-          </h1>
-
-          <section className="mt-16">
-            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-              Simple. Useful. Human.
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <main className="secondary flex-1">
+        <div className="secondary-intro"><div className="secondary-container">
+          <p className="secondary-kicker">02 / Our approach</p>
+          <h1>How we think<span className="secondary-period">.</span></h1>
+          <p className="secondary-lead">Thoughtful software starts with the people who use it and the problem it needs to solve.</p>
+        </div></div>
+        <div className="secondary-container secondary-content approach-detail">
+          <section className="approach-entry">
+            <span className="detail-number" aria-hidden="true">01 / 02</span>
+            <div><h2>Simple. Useful. Human.</h2><p>
               We start with the people who will use a product and the problem it needs
               to solve. We aim to build software that is understandable, practical and
               appropriate for the job — rather than adding technology for its own sake.
-            </p>
+            </p></div>
           </section>
 
-          <section className="mt-16">
-            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-              A new company built on long experience.
-            </h2>
-            <div className="mt-6 space-y-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+          <section className="approach-entry">
+            <span className="detail-number" aria-hidden="true">02 / 02</span>
+            <div><h2>A new company built on long experience.</h2>
               <p>
                 ATRIDAE is a new UK software company, built on more than two decades
                 of experience across different areas of software development and

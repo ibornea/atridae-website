@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-section services-section" aria-labelledby="services-title">
+        <section id="what-we-do" className="home-section services-section" aria-labelledby="services-title">
           <div className="home-container">
             <div className="section-heading"><div><p className="section-kicker">01 / Our work</p><h2 id="services-title">What we do<span className="heading-period">.</span></h2></div><p>We create practical digital solutions that help people and organisations work more effectively.</p></div>
             <div className="service-grid">
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-section approach-section" aria-labelledby="approach-title">
+        <section id="how-we-think" className="home-section approach-section" aria-labelledby="approach-title">
           <div className="home-container">
             <div className="section-heading"><div><p className="section-kicker">03 / Our approach</p><h2 id="approach-title">How we think<span className="heading-period">.</span></h2></div><p>Good software starts with understanding the problem, not adding more complexity.</p></div>
             <div className="principle-grid">
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="contact-section" aria-labelledby="contact-title">
+        <section id="contact" className="contact-section" aria-labelledby="contact-title">
           <div className="home-container contact-inner"><div><p className="section-kicker">04 / Let’s talk</p><h2 id="contact-title">Have a problem<br />worth solving?</h2><p>We believe good digital solutions begin with a conversation about real needs.</p></div><Link href="/contact" className="button button-light">Get in touch <Arrow /></Link></div>
         </section>
       </main>

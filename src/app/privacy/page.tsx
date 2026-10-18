@@ -12,8 +12,8 @@ export default function Privacy() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 px-6 py-16 sm:px-10 sm:pt-12 sm:pb-24">
-        <article className="max-w-2xl">
+      <main className="secondary privacy-page flex-1">
+        <article className="secondary-container privacy-document">
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Privacy Policy
           </h1>

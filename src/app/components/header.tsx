@@ -37,17 +37,17 @@ export function Header() {
       >
         <ul className="flex w-max items-center gap-6 whitespace-nowrap text-sm font-semibold text-zinc-600 dark:text-zinc-400">
           <li>
-            <Link className="hover:text-foreground" href="/how-we-think">
+            <Link className="hover:text-foreground" href="/#how-we-think">
               How we think
             </Link>
           </li>
           <li>
-            <Link className="hover:text-foreground" href="/what-we-do">
+            <Link className="hover:text-foreground" href="/#what-we-do">
               What we do
             </Link>
           </li>
           <li>
-            <Link className="hover:text-foreground" href="/contact">
+            <Link className="hover:text-foreground" href="/#contact">
               Contact
             </Link>
           </li>
@@ -78,7 +78,7 @@ export function Header() {
             <li>
               <Link
                 className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
-                href="/how-we-think"
+                href="/#how-we-think"
                 onClick={() => setIsMenuOpen(false)}
               >
                 How we think
@@ -87,7 +87,7 @@ export function Header() {
             <li>
               <Link
                 className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
-                href="/what-we-do"
+                href="/#what-we-do"
                 onClick={() => setIsMenuOpen(false)}
               >
                 What we do
@@ -96,7 +96,7 @@ export function Header() {
             <li>
               <Link
                 className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
-                href="/contact"
+                href="/#contact"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
