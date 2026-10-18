@@ -16,18 +16,10 @@ export function Header() {
       >
         <Image
           alt="ATRIDAE"
-          className="h-11 w-auto dark:hidden sm:h-12"
+          className="h-11 w-auto sm:h-12"
           height={124}
           priority
           src="/atridae-logo.svg"
-          width={505}
-        />
-        <Image
-          alt="ATRIDAE"
-          className="hidden h-11 w-auto dark:block sm:h-12"
-          height={124}
-          priority
-          src="/atridae-logo-white.svg"
           width={505}
         />
       </Link>
@@ -35,7 +27,7 @@ export function Header() {
         aria-label="Primary navigation"
         className="hidden overflow-x-auto sm:block"
       >
-        <ul className="flex w-max items-center gap-6 whitespace-nowrap text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+        <ul className="flex w-max items-center gap-6 whitespace-nowrap text-sm font-semibold text-zinc-600">
           <li>
             <Link className="hover:text-foreground" href="/#how-we-think">
               How we think
@@ -57,7 +49,7 @@ export function Header() {
         aria-controls="mobile-primary-navigation"
         aria-expanded={isMenuOpen}
         aria-label="Toggle navigation menu"
-        className="flex size-11 shrink-0 items-center justify-center rounded-md text-zinc-600 hover:bg-zinc-100 hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground dark:text-zinc-400 dark:hover:bg-zinc-900 sm:hidden"
+        className="flex size-11 shrink-0 items-center justify-center rounded-md text-zinc-600 hover:bg-zinc-100 hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground sm:hidden"
         onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
         type="button"
       >
@@ -71,13 +63,13 @@ export function Header() {
       {isMenuOpen && (
         <nav
           aria-label="Mobile primary navigation"
-          className="absolute top-full right-6 z-10 w-52 rounded-md border border-zinc-200 bg-background p-2 shadow-lg dark:border-zinc-800 sm:hidden"
+          className="absolute top-full right-6 z-10 w-52 rounded-md border border-zinc-200 bg-background p-2 shadow-lg sm:hidden"
           id="mobile-primary-navigation"
         >
-          <ul className="flex flex-col text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+          <ul className="flex flex-col text-sm font-semibold text-zinc-600">
             <li>
               <Link
-                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
+                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground"
                 href="/#how-we-think"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -86,7 +78,7 @@ export function Header() {
             </li>
             <li>
               <Link
-                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
+                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground"
                 href="/#what-we-do"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -95,7 +87,7 @@ export function Header() {
             </li>
             <li>
               <Link
-                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground dark:hover:bg-zinc-900"
+                className="block rounded px-3 py-2 hover:bg-zinc-100 hover:text-foreground"
                 href="/#contact"
                 onClick={() => setIsMenuOpen(false)}
               >
